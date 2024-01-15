@@ -509,3 +509,47 @@ main {
     font-size: 32px;
     font-weight: 800;
 }
+/* footer */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+.footer-main{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 110px 0px;
+}
+.footer-main p{
+    color:var(--secondary);
+text-align: center;
+margin: 15px 0px 30px;
+
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-container h2{
+    color:var(--primary);
+font-size: 32px;
+font-weight: 800;
+}
+.logo-container h2 > span{
+    color: #FF5400; 
+}
+.social-link a{
+    margin-right: 20px;
+    color: var(--primary);
+    font-size: 25px;
+    
+}
+.footer-main hr{
+    margin: 50px 0px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.footer-main .copyright{
+    color: #131318; 
+}
