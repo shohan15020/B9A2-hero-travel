@@ -1,0 +1,137 @@
+/* Mulish font from google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --primary: #131318;
+    --secondary: #5A5A5D;
+    --tertiary: rgba(19, 19, 24, 0.70);
+}
+
+/* header section start */
+header {
+    max-width: 1170px;
+    margin: 50px auto 100px;
+    border: 2px solid red;
+}
+
+/* navbar section start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo h2 {
+    color: var(--primary);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo h2>span {
+    color: #FF5400;
+}
+
+/* logo style end */
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav>ul li a span {
+    color: #FF5400;
+}
+.hide{
+    display: none;
+}
+/* banner section */
+.banner-container {
+    border: 2px solid red;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner {
+    border: 1px solid greenyellow;
+    padding: 100px 180px;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner p {
+    color: #FFF;
+    text-align: center;
+    margin: 25px 0px 50px;
+}
+
+.form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.form input,
+.form select,
+.form button {
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--secondary);
+    border: none;
+    width: 170px;
+    /*  */
+}
+
+
+.form>button {
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+/* main section */
