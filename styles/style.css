@@ -599,9 +599,7 @@ footer {
 }
 
 /*  */
-.look {
-    display: none;
-}
+
 
 /* media queiry */
 @media screen and (max-width:600px) {
